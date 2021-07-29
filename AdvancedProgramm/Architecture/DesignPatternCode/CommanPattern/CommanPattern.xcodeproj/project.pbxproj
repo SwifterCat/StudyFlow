@@ -17,6 +17,16 @@
 		18552B43269DDCEE00BECC38 /* ComputerShutdownCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18552B42269DDCEE00BECC38 /* ComputerShutdownCommand.swift */; };
 		18552B47269DDD2300BECC38 /* ComputerReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18552B46269DDD2300BECC38 /* ComputerReceiver.swift */; };
 		18552B49269DDD3000BECC38 /* ComputerInvoker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18552B48269DDD3000BECC38 /* ComputerInvoker.swift */; };
+		187C4E1226B1A06B00BAEE3D /* BaseInstanceAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187C4E1126B1A06B00BAEE3D /* BaseInstanceAdapter.swift */; };
+		187C4E1426B1A07900BAEE3D /* BaseAdaptee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187C4E1326B1A07900BAEE3D /* BaseAdaptee.swift */; };
+		187C4E1626B1A0D400BAEE3D /* BaseAdapterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187C4E1526B1A0D400BAEE3D /* BaseAdapterProtocol.swift */; };
+		187C4E1826B1A1D500BAEE3D /* BaseClassAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187C4E1726B1A1D500BAEE3D /* BaseClassAdapter.swift */; };
+		187C4E1A26B1A28C00BAEE3D /* NormalMediaPlayerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187C4E1926B1A28C00BAEE3D /* NormalMediaPlayerProtocol.swift */; };
+		187C4E1C26B1A2A400BAEE3D /* AdvancedMediaPlayerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187C4E1B26B1A2A400BAEE3D /* AdvancedMediaPlayerProtocol.swift */; };
+		187C4E1E26B1A32300BAEE3D /* NormalMediaPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187C4E1D26B1A32300BAEE3D /* NormalMediaPlayer.swift */; };
+		187C4E2026B1A33B00BAEE3D /* AdvancedVlcMediaPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187C4E1F26B1A33B00BAEE3D /* AdvancedVlcMediaPlayer.swift */; };
+		187C4E2226B1A35600BAEE3D /* AdvancedMp4MediaPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187C4E2126B1A35600BAEE3D /* AdvancedMp4MediaPlayer.swift */; };
+		187C4E2426B1A36300BAEE3D /* MediaPlayerAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187C4E2326B1A36300BAEE3D /* MediaPlayerAdapter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +53,16 @@
 		18552B42269DDCEE00BECC38 /* ComputerShutdownCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputerShutdownCommand.swift; sourceTree = "<group>"; };
 		18552B46269DDD2300BECC38 /* ComputerReceiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputerReceiver.swift; sourceTree = "<group>"; };
 		18552B48269DDD3000BECC38 /* ComputerInvoker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputerInvoker.swift; sourceTree = "<group>"; };
+		187C4E1126B1A06B00BAEE3D /* BaseInstanceAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseInstanceAdapter.swift; sourceTree = "<group>"; };
+		187C4E1326B1A07900BAEE3D /* BaseAdaptee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAdaptee.swift; sourceTree = "<group>"; };
+		187C4E1526B1A0D400BAEE3D /* BaseAdapterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAdapterProtocol.swift; sourceTree = "<group>"; };
+		187C4E1726B1A1D500BAEE3D /* BaseClassAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseClassAdapter.swift; sourceTree = "<group>"; };
+		187C4E1926B1A28C00BAEE3D /* NormalMediaPlayerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalMediaPlayerProtocol.swift; sourceTree = "<group>"; };
+		187C4E1B26B1A2A400BAEE3D /* AdvancedMediaPlayerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedMediaPlayerProtocol.swift; sourceTree = "<group>"; };
+		187C4E1D26B1A32300BAEE3D /* NormalMediaPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalMediaPlayer.swift; sourceTree = "<group>"; };
+		187C4E1F26B1A33B00BAEE3D /* AdvancedVlcMediaPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedVlcMediaPlayer.swift; sourceTree = "<group>"; };
+		187C4E2126B1A35600BAEE3D /* AdvancedMp4MediaPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedMp4MediaPlayer.swift; sourceTree = "<group>"; };
+		187C4E2326B1A36300BAEE3D /* MediaPlayerAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaPlayerAdapter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +79,7 @@
 		18552B21269DDA9500BECC38 = {
 			isa = PBXGroup;
 			children = (
+				187C4E0E26B19FF900BAEE3D /* AdapterPattern */,
 				18552B2C269DDA9500BECC38 /* CommanPattern */,
 				18552B2B269DDA9500BECC38 /* Products */,
 			);
@@ -103,6 +124,39 @@
 				18552B48269DDD3000BECC38 /* ComputerInvoker.swift */,
 			);
 			path = ComputerExample;
+			sourceTree = "<group>";
+		};
+		187C4E0E26B19FF900BAEE3D /* AdapterPattern */ = {
+			isa = PBXGroup;
+			children = (
+				187C4E1026B1A02200BAEE3D /* MediaPlayerExample */,
+				187C4E0F26B1A01A00BAEE3D /* BaseStyle */,
+			);
+			path = AdapterPattern;
+			sourceTree = "<group>";
+		};
+		187C4E0F26B1A01A00BAEE3D /* BaseStyle */ = {
+			isa = PBXGroup;
+			children = (
+				187C4E1126B1A06B00BAEE3D /* BaseInstanceAdapter.swift */,
+				187C4E1326B1A07900BAEE3D /* BaseAdaptee.swift */,
+				187C4E1526B1A0D400BAEE3D /* BaseAdapterProtocol.swift */,
+				187C4E1726B1A1D500BAEE3D /* BaseClassAdapter.swift */,
+			);
+			path = BaseStyle;
+			sourceTree = "<group>";
+		};
+		187C4E1026B1A02200BAEE3D /* MediaPlayerExample */ = {
+			isa = PBXGroup;
+			children = (
+				187C4E1926B1A28C00BAEE3D /* NormalMediaPlayerProtocol.swift */,
+				187C4E1B26B1A2A400BAEE3D /* AdvancedMediaPlayerProtocol.swift */,
+				187C4E1D26B1A32300BAEE3D /* NormalMediaPlayer.swift */,
+				187C4E1F26B1A33B00BAEE3D /* AdvancedVlcMediaPlayer.swift */,
+				187C4E2126B1A35600BAEE3D /* AdvancedMp4MediaPlayer.swift */,
+				187C4E2326B1A36300BAEE3D /* MediaPlayerAdapter.swift */,
+			);
+			path = MediaPlayerExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,16 +216,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				187C4E1A26B1A28C00BAEE3D /* NormalMediaPlayerProtocol.swift in Sources */,
+				187C4E2426B1A36300BAEE3D /* MediaPlayerAdapter.swift in Sources */,
+				187C4E1226B1A06B00BAEE3D /* BaseInstanceAdapter.swift in Sources */,
+				187C4E1E26B1A32300BAEE3D /* NormalMediaPlayer.swift in Sources */,
+				187C4E1626B1A0D400BAEE3D /* BaseAdapterProtocol.swift in Sources */,
+				187C4E1C26B1A2A400BAEE3D /* AdvancedMediaPlayerProtocol.swift in Sources */,
 				18552B3F269DDC7E00BECC38 /* ComputerCommandProtocol.swift in Sources */,
 				18552B2E269DDA9500BECC38 /* main.swift in Sources */,
 				18552B43269DDCEE00BECC38 /* ComputerShutdownCommand.swift in Sources */,
 				18552B49269DDD3000BECC38 /* ComputerInvoker.swift in Sources */,
 				18552B41269DDCB600BECC38 /* ComputerRebootCommand.swift in Sources */,
 				18552B38269DDB1900BECC38 /* ConcreteCommand.swift in Sources */,
+				187C4E1426B1A07900BAEE3D /* BaseAdaptee.swift in Sources */,
 				18552B47269DDD2300BECC38 /* ComputerReceiver.swift in Sources */,
+				187C4E2226B1A35600BAEE3D /* AdvancedMp4MediaPlayer.swift in Sources */,
 				18552B3C269DDC2B00BECC38 /* Receiver.swift in Sources */,
 				18552B3A269DDB9400BECC38 /* Invoker.swift in Sources */,
 				18552B36269DDACD00BECC38 /* CommandProtocol.swift in Sources */,
+				187C4E1826B1A1D500BAEE3D /* BaseClassAdapter.swift in Sources */,
+				187C4E2026B1A33B00BAEE3D /* AdvancedVlcMediaPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
